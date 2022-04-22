@@ -1,3 +1,4 @@
+
 //Rodriguez Diaz, Julian
 //tp0 figuras
 void setup() {
@@ -35,4 +36,8 @@ void draw() {
   fill(200,280,230);
   rect(325,250,20,10);
   rect(380,250,20,10);
+  line(115, 250, 115 ,150);
+  //Bandera
+  fill(250,50,250);
+  triangle(115,160,112,120,150,120);
 }
